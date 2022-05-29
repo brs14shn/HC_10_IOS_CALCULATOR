@@ -9,7 +9,7 @@
 }
 
 .container {
-    height: 600px;
+    height: 630px;
     width: 360px;
     background-color: var(--siyah);
     margin: 10px auto;
@@ -18,11 +18,19 @@
 }
 
 #screen {
+  
     height: 165px;
     width: 340px;
     margin: auto;
     font-size: 50px;
     padding: 20px;
+    overflow:hidden;
+}
+#saat {
+    /* border: 2px solid blue; */
+    width: 55px;
+    height: 20px;
+    padding: 5px;
 }
 
 .button {
