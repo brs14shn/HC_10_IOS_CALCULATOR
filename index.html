@@ -82,9 +82,9 @@
     const hour = document.getElementById("saat");
     let saat = hour.innerHTML = new Date().getHours();
     let dakika = hour.innerHTML = new Date().getMinutes();
-    let saniye = hour.innerHTML = new Date().getSeconds();
+
     const concat = document.getElementById('saat');
-    concat.innerHTML = `${saat}: ${dakika}: ${saniye}`
+    concat.innerHTML = `${saat}: ${dakika}`
 
     hour.style.color = 'white'
     hour.style.fontSize = "10px"
